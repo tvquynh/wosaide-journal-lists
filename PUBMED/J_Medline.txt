@@ -287223,6 +287223,14 @@ ISSN (Online): 1741-2641
 IsoAbbr: Anthropol Theory
 NlmId: 9918609978606676
 --------------------------------------------------------
+JrId: 52599
+JournalTitle: Journal of ophthalmology and research
+MedAbbr: J Ophthalmol Res
+ISSN (Print): 
+ISSN (Online): 2644-0024
+IsoAbbr: J Ophthalmol Res
+NlmId: 9918609978706676
+--------------------------------------------------------
 JrId: 52600
 JournalTitle: Frontiers in environmental chemistry
 MedAbbr: Front Environ Chem
