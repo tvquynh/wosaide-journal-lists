@@ -304431,6 +304431,14 @@ ISSN (Online):
 IsoAbbr: 7th Int Conf Wirel Intell Distrib Environ Commun (2024)
 NlmId: 9919270153006676
 --------------------------------------------------------
+JrId: 55163
+JournalTitle: The journal of nutritional physiology
+MedAbbr: J Nutr Physiol
+ISSN (Print): 
+ISSN (Online): 3050-6247
+IsoAbbr: J Nutr Physiol
+NlmId: 9919270152806676
+--------------------------------------------------------
 JrId: 55164
 JournalTitle: The coaching psychologist
 MedAbbr: Coach Psychol
@@ -304622,3 +304630,11 @@ ISSN (Print):
 ISSN (Online): 3091-3888
 IsoAbbr: Npj Struct Biol
 NlmId: 9919273552406676
+--------------------------------------------------------
+JrId: 55214
+JournalTitle: Simplifying medical ultrasound. International Workshop on Advances in Simplifying Medical Ultrasound
+MedAbbr: Simpl Med Ultrasound
+ISSN (Print): 
+ISSN (Online): 
+IsoAbbr: Simpl Med Ultrasound
+NlmId: 9919274046706676
