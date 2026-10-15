@@ -304615,6 +304615,14 @@ ISSN (Online): 2978-2252
 IsoAbbr: J Wellbeing Econ
 NlmId: 9919273344006676
 --------------------------------------------------------
+JrId: 55203
+JournalTitle: Journal of ophthalmology and advance research
+MedAbbr: J Ophthalmol Adv Res
+ISSN (Print): 3050-9440
+ISSN (Online): 3050-9459
+IsoAbbr: J Ophthalmol Adv Res
+NlmId: 9919273344206676
+--------------------------------------------------------
 JrId: 55205
 JournalTitle: The Lancet medical imaging & theranostics
 MedAbbr: Lancet Med Imaging Theranostics
