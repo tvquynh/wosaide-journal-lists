@@ -295823,14 +295823,6 @@ ISSN (Online):
 IsoAbbr: Cancer Prev Detect Interv (2024)
 NlmId: 9918956859806676
 --------------------------------------------------------
-JrId: 53872
-JournalTitle: Simplifying medical ultrasound : 5th international workshop, ASMUS 2024, held in conjunction with MICCAI 2024, Marrakesh, Morocco, October 6, 2024, proceedings. ASMUS (Workshop) (5th : 2024 : Marrakech, Morocco)
-MedAbbr: Simpl Med Ultrasound (2024)
-ISSN (Print): 
-ISSN (Online): 
-IsoAbbr: Simpl Med Ultrasound (2024)
-NlmId: 9918956861606676
---------------------------------------------------------
 JrId: 53874
 JournalTitle: Design science
 MedAbbr: Des Sci
