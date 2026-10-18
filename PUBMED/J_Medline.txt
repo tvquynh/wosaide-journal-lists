@@ -304583,6 +304583,14 @@ ISSN (Online): 3049-4761
 IsoAbbr: Mach Learn Eng
 NlmId: 9919272346006676
 --------------------------------------------------------
+JrId: 55197
+JournalTitle: Tizard learning disability review
+MedAbbr: Tizard Learn Disabil Rev
+ISSN (Print): 1359-5474
+ISSN (Online): 2042-8782
+IsoAbbr: Tizard Learn Disabil Rev
+NlmId: 100966256
+--------------------------------------------------------
 JrId: 55200
 JournalTitle: ISME host microbe
 MedAbbr: ISME Host Microbe
@@ -304615,6 +304623,14 @@ ISSN (Online): 3050-9459
 IsoAbbr: J Ophthalmol Adv Res
 NlmId: 9919273344206676
 --------------------------------------------------------
+JrId: 55204
+JournalTitle: Law, technology and humans
+MedAbbr: Law Technol Hum
+ISSN (Print): 
+ISSN (Online): 2652-4074
+IsoAbbr: Law Technol Hum
+NlmId: 9919273450906676
+--------------------------------------------------------
 JrId: 55205
 JournalTitle: The Lancet medical imaging & theranostics
 MedAbbr: Lancet Med Imaging Theranostics
@@ -304630,6 +304646,14 @@ ISSN (Print):
 ISSN (Online): 3091-3888
 IsoAbbr: Npj Struct Biol
 NlmId: 9919273552406676
+--------------------------------------------------------
+JrId: 55212
+JournalTitle: Npj thermal science and engineering
+MedAbbr: Npj Therm Sci Eng
+ISSN (Print): 
+ISSN (Online): 3059-3301
+IsoAbbr: Npj Therm Sci Eng
+NlmId: 9919273812006676
 --------------------------------------------------------
 JrId: 55214
 JournalTitle: Simplifying medical ultrasound. International Workshop on Advances in Simplifying Medical Ultrasound
