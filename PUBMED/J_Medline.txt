@@ -304591,6 +304591,14 @@ ISSN (Online): 2042-8782
 IsoAbbr: Tizard Learn Disabil Rev
 NlmId: 100966256
 --------------------------------------------------------
+JrId: 55199
+JournalTitle: Mental health practice
+MedAbbr: Ment Health Pract
+ISSN (Print): 1465-8720
+ISSN (Online): 2047-895X
+IsoAbbr: Ment Health Pract
+NlmId: 101088546
+--------------------------------------------------------
 JrId: 55200
 JournalTitle: ISME host microbe
 MedAbbr: ISME Host Microbe
