@@ -162843,7 +162843,7 @@ JrId: 33902
 JournalTitle: Recent patents on anti-infective drug discovery
 MedAbbr: Recent Pat Antiinfect Drug Discov
 ISSN (Print): 1574-891X
-ISSN (Online): 2212-4071
+ISSN (Online): 
 IsoAbbr: Recent Pat Antiinfect Drug Discov
 NlmId: 101266084
 --------------------------------------------------------
@@ -275114,7 +275114,7 @@ NlmId: 9918227366506676
 JrId: 50755
 JournalTitle: Current reviews in clinical and experimental pharmacology
 MedAbbr: Curr Rev Clin Exp Pharmacol
-ISSN (Print): 2772-4328
+ISSN (Print): 
 ISSN (Online): 2772-4336
 IsoAbbr: Curr Rev Clin Exp Pharmacol
 NlmId: 9918227368306676
@@ -303926,6 +303926,14 @@ ISSN (Print):
 ISSN (Online): 2638-4558
 IsoAbbr: Clin Case Rep Int
 NlmId: 9919266551306676
+--------------------------------------------------------
+JrId: 55072
+JournalTitle: Tax policy and the economy
+MedAbbr: Tax Policy Econ
+ISSN (Print): 0892-8649
+ISSN (Online): 1537-2650
+IsoAbbr: Tax Policy Econ
+NlmId: 9919266647506676
 --------------------------------------------------------
 JrId: 55077
 JournalTitle: Communications AI & computing
