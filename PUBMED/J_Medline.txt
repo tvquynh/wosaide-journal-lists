@@ -304687,6 +304687,14 @@ ISSN (Online): 3091-3888
 IsoAbbr: Npj Struct Biol
 NlmId: 9919273552406676
 --------------------------------------------------------
+JrId: 55211
+JournalTitle: Practical assessment, research & evaluation : PARE
+MedAbbr: Pract Assess Res Eval
+ISSN (Print): 
+ISSN (Online): 1531-7714
+IsoAbbr: Pract Assess Res Eval
+NlmId: 9919273853006676
+--------------------------------------------------------
 JrId: 55212
 JournalTitle: Npj thermal science and engineering
 MedAbbr: Npj Therm Sci Eng
