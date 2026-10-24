@@ -211218,7 +211218,7 @@ NlmId: 101607289
 JrId: 41337
 JournalTitle: Nanophotonics (Berlin, Germany)
 MedAbbr: Nanophotonics
-ISSN (Print): 2192-8606
+ISSN (Print): 
 ISSN (Online): 2192-8614
 IsoAbbr: Nanophotonics
 NlmId: 101607802
@@ -272322,7 +272322,7 @@ NlmId: 101775544
 JrId: 50335
 JournalTitle: Mechanics of soft materials
 MedAbbr: Mech Soft Mater
-ISSN (Print): 2524-5600
+ISSN (Print): 
 ISSN (Online): 2524-5619
 IsoAbbr: Mech Soft Mater
 NlmId: 101775558
@@ -274799,6 +274799,14 @@ ISSN (Online): 2040-4565
 IsoAbbr: J Spectr Imaging
 NlmId: 9918227271306676
 --------------------------------------------------------
+JrId: 50709
+JournalTitle: European journal of teaching and education
+MedAbbr: Eur J Teach Educ
+ISSN (Print): 
+ISSN (Online): 2669-0667
+IsoAbbr: Eur J Teach Educ
+NlmId: 9918227273106676
+--------------------------------------------------------
 JrId: 50711
 JournalTitle: Journal of radiology and imaging
 MedAbbr: J Radiol Imaging
@@ -275522,7 +275530,7 @@ NlmId: 9918230899506676
 JrId: 50817
 JournalTitle: Frontiers in reproductive health
 MedAbbr: Front Reprod Health
-ISSN (Print): 2673-3153
+ISSN (Print): 
 ISSN (Online): 2673-3153
 IsoAbbr: Front Reprod Health
 NlmId: 9918230899006676
@@ -304623,6 +304631,14 @@ ISSN (Online): 2042-8782
 IsoAbbr: Tizard Learn Disabil Rev
 NlmId: 100966256
 --------------------------------------------------------
+JrId: 55198
+JournalTitle: Serials review
+MedAbbr: Ser Rev
+ISSN (Print): 0098-7913
+ISSN (Online): 1879-095X
+IsoAbbr: Ser Rev
+NlmId: 7606314
+--------------------------------------------------------
 JrId: 55199
 JournalTitle: Mental health practice
 MedAbbr: Ment Health Pract
@@ -304710,3 +304726,19 @@ ISSN (Print):
 ISSN (Online): 
 IsoAbbr: Simpl Med Ultrasound
 NlmId: 9919274046706676
+--------------------------------------------------------
+JrId: 55219
+JournalTitle: The International journal of art & design education
+MedAbbr: Int J Art Des Educ
+ISSN (Print): 1476-8062
+ISSN (Online): 1476-8070
+IsoAbbr: Int J Art Des Educ
+NlmId: 9919275853006676
+--------------------------------------------------------
+JrId: 55220
+JournalTitle: Journal of geovisualization and spatial analysis
+MedAbbr: J Geovisualization Spat Anal
+ISSN (Print): 2509-8810
+ISSN (Online): 2509-8829
+IsoAbbr: J Geovisualization Spat Anal
+NlmId: 9919275853106676
