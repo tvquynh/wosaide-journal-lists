@@ -286791,6 +286791,14 @@ ISSN (Online): 1446-8735
 IsoAbbr: ANZIAM j
 NlmId: 9918591782106676
 --------------------------------------------------------
+JrId: 52524
+JournalTitle: Nonprofit policy forum
+MedAbbr: Nonprofit Policy Forum
+ISSN (Print): 2194-6035
+ISSN (Online): 2154-3348
+IsoAbbr: Nonprofit Policy Forum
+NlmId: 9918591989006676
+--------------------------------------------------------
 JrId: 52525
 JournalTitle: Immuno-oncology insights
 MedAbbr: Immuno-oncol Insights
@@ -304718,6 +304726,14 @@ ISSN (Print):
 ISSN (Online): 3059-3301
 IsoAbbr: Npj Therm Sci Eng
 NlmId: 9919273812006676
+--------------------------------------------------------
+JrId: 55213
+JournalTitle: Angewandte chemie novit
+MedAbbr: Angew Chem Novit
+ISSN (Print): 
+ISSN (Online): 2510-9537
+IsoAbbr: Angew Chem Novit
+NlmId: 9919273853106676
 --------------------------------------------------------
 JrId: 55214
 JournalTitle: Simplifying medical ultrasound. International Workshop on Advances in Simplifying Medical Ultrasound
