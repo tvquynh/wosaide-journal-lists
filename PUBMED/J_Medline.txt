@@ -304631,6 +304631,14 @@ ISSN (Online): 3049-4761
 IsoAbbr: Mach Learn Eng
 NlmId: 9919272346006676
 --------------------------------------------------------
+JrId: 55196
+JournalTitle: Voluntary sector review
+MedAbbr: Volunt Sect Rev
+ISSN (Print): 2040-8056
+ISSN (Online): 2040-8064
+IsoAbbr: Volunt Sect Rev
+NlmId: 9919273453106676
+--------------------------------------------------------
 JrId: 55197
 JournalTitle: Tizard learning disability review
 MedAbbr: Tizard Learn Disabil Rev
@@ -304758,3 +304766,19 @@ ISSN (Print): 2509-8810
 ISSN (Online): 2509-8829
 IsoAbbr: J Geovisualization Spat Anal
 NlmId: 9919275853106676
+--------------------------------------------------------
+JrId: 55221
+JournalTitle: Appetite. Disordered eating
+MedAbbr: Appet Disord Eat
+ISSN (Print): 
+ISSN (Online): 3117-3950
+IsoAbbr: Appet Disord Eat
+NlmId: 9919275853206676
+--------------------------------------------------------
+JrId: 55234
+JournalTitle: Perinatal, Preterm and Paediatric Image Analysis. PIPPI (Workshop)
+MedAbbr: Perinat Preterm Paediatr Image Anal
+ISSN (Print): 
+ISSN (Online): 
+IsoAbbr: Perinat Preterm Paediatr Image Anal
+NlmId: 9919276449106676
