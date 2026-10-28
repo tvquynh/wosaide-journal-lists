@@ -1,0 +1,84 @@
+name: Create archive snapshot
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "47 2 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout control branch
+        uses: actions/checkout@v4
+        with:
+          ref: control
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Fetch repository branches
+        run: |
+          git fetch origin mirror archive
+
+      - name: Prepare snapshot
+        shell: bash
+        run: |
+          SNAPSHOT_DATE=$(date -u +%Y-%m-%d)
+          SNAPSHOT_DIR="snapshots/$SNAPSHOT_DATE"
+
+          echo "Snapshot date: $SNAPSHOT_DATE"
+          echo "Snapshot directory: $SNAPSHOT_DIR"
+
+          MIRROR_COMMIT=$(git rev-parse origin/mirror)
+
+          git checkout -B archive origin/archive
+
+          if [ -e "$SNAPSHOT_DIR" ]; then
+            echo "Snapshot already exists: $SNAPSHOT_DIR"
+            echo "Nothing to do."
+            exit 0
+          fi
+
+          mkdir -p "$SNAPSHOT_DIR"
+
+          git archive origin/mirror | tar -x -C "$SNAPSHOT_DIR"
+
+          cat > "$SNAPSHOT_DIR/MANIFEST.txt" <<EOF
+          source_repository=https://github.com/wosaide/wosaide-journal-lists
+          mirror_repository=https://github.com/tvquynh/wosaide-journal-lists
+          mirror_branch=mirror
+          mirror_commit=$MIRROR_COMMIT
+          snapshot_date_utc=$SNAPSHOT_DATE
+          created_by=github-actions
+          EOF
+
+          git add "$SNAPSHOT_DIR"
+
+          if git diff --cached --quiet; then
+            echo "No new snapshot content."
+            exit 0
+          fi
+
+          git commit -m "Add snapshot $SNAPSHOT_DATE from mirror $MIRROR_COMMIT"
+          git push origin archive
+
+      - name: Write summary
+        shell: bash
+        run: |
+          SNAPSHOT_DATE=$(date -u +%Y-%m-%d)
+
+          echo "## Archive snapshot" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Snapshot date: $SNAPSHOT_DATE" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Source branch: mirror" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Target branch: archive" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Snapshot path: snapshots/$SNAPSHOT_DATE" >> "$GITHUB_STEP_SUMMARY"
