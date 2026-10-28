@@ -1,0 +1,71 @@
+name: Sync upstream to mirror
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "17 2 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout control branch
+        uses: actions/checkout@v4
+        with:
+          ref: control
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Add upstream
+        run: |
+          git remote add upstream https://github.com/wosaide/wosaide-journal-lists.git
+          git remote -v
+
+      - name: Fetch upstream
+        run: |
+          git fetch upstream --prune --tags
+
+      - name: Detect upstream default branch
+        id: upstream
+        shell: bash
+        run: |
+          DEFAULT_BRANCH=$(git remote show upstream | sed -n '/HEAD branch/s/.*: //p')
+
+          if [ -z "$DEFAULT_BRANCH" ]; then
+            echo "Could not determine upstream default branch."
+            exit 1
+          fi
+
+          echo "branch=$DEFAULT_BRANCH" >> "$GITHUB_OUTPUT"
+          echo "Upstream default branch: $DEFAULT_BRANCH"
+
+      - name: Update mirror branch
+        shell: bash
+        run: |
+          BRANCH="${{ steps.upstream.outputs.branch }}"
+
+          git fetch origin mirror
+          git checkout -B mirror "upstream/$BRANCH"
+
+          git push origin mirror --force-with-lease
+
+      - name: Write summary
+        shell: bash
+        run: |
+          BRANCH="${{ steps.upstream.outputs.branch }}"
+
+          echo "## Upstream sync completed" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Source: wosaide/wosaide-journal-lists" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Upstream branch: $BRANCH" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Target branch: mirror" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Upstream commit: $(git rev-parse upstream/$BRANCH)" >> "$GITHUB_STEP_SUMMARY"
