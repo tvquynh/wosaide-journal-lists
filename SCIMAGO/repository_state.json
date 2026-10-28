@@ -1,0 +1,16 @@
+{
+  "manifest_url": "https://scopus.cuatui.cloud/du-lieu/scimago/manifest.json",
+  "metadata_source": "cache-offline",
+  "schema_version": 1,
+  "dataset": "SCImago local research mirror",
+  "updated": "2026-10-25",
+  "base_url": "https://scopus.cuatui.cloud/du-lieu/scimago/",
+  "first_year": 2010,
+  "last_year": 2025,
+  "latest_snapshot_year": 2025,
+  "required_files": 17,
+  "verified_files": 17,
+  "reused_files": 17,
+  "downloaded_files": 0,
+  "integrity_verified": true
+}

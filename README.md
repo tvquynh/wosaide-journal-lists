@@ -19,6 +19,7 @@ text or article content.
 | `EI/` | Ei Compendex serial/source list | [`EI/README.md`](EI/README.md) |
 | `CNKI/` | PKU Core 2023 and CSSCI 2025–2026 journal lists | [`CNKI/README.md`](CNKI/README.md) |
 | `LIST/` | AJG 2024, UTD24, FT50 curated lists | [`LIST/README.md`](LIST/README.md) |
+| `SCIMAGO/` | SCImago Journal Rank 2010–2025 and Journal Value 2025 | [`SCIMAGO/README.md`](SCIMAGO/README.md) |
 
 Each directory README records the official source/download address for the
 files in that directory. Prefer those provider-specific READMEs when updating
@@ -102,6 +103,16 @@ is stored here.
 - `LIST/UTD24.csv` — UT Dallas 24-journal set
 - `LIST/FT50.csv` — Financial Times business-school research journal list
 
+### SCImago
+
+- `SCIMAGO/scimagojr-2010.csv` to `SCIMAGO/scimagojr-2025.csv`: yearly SCImago Journal Rank tables
+- `SCIMAGO/scimago-journal-value-2025.csv`: 2025 SJR fields with an estimated APC and an estimated value
+- `SCIMAGO/SHA256SUMS.txt`, `manifest.json`, `repository_state.json`: checksums and the description of the
+  research mirror the files were copied from
+
+The files are byte-for-byte copies of the mirror's 2026-10-25 update; see
+[`SCIMAGO/README.md`](SCIMAGO/README.md) for the format and a checksum command.
+
 ## Main official source pages
 
 - Clarivate Master Journal List downloads:
@@ -134,6 +145,8 @@ is stored here.
   https://jindal.utdallas.edu/the-utd-top-100-business-school-research-rankings/
 - Financial Times 2026 source:
   https://www.ft.com/content/db863a0a-6524-45f9-bc52-fee997634bdc
+- SCImago Journal & Country Rank:
+  https://www.scimagojr.com/
 
 ## App usage
 
@@ -148,7 +161,7 @@ The source lists remain associated with their respective publishers and
 organizations. Web of Science and Clarivate, Scopus, ScienceDirect,
 Engineering Village, Compendex and Elsevier, CNKI, Peking University Library,
 Nanjing University and CSSCI, Academic Journal Guide and Chartered ABS,
-Financial Times, and The University of Texas at Dallas are marks/names of
-their respective owners.
+Financial Times, The University of Texas at Dallas, and SCImago Lab are
+marks/names of their respective owners.
 This repository is independent and is not affiliated with or endorsed by
 those organizations.

@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "dataset": "SCImago local research mirror",
+  "updated": "2026-10-25",
+
+  "base_url": "https://scopus.cuatui.cloud/du-lieu/scimago/",
+
+  "provenance": {
+    "source_name": "SCImago Journal & Country Rank",
+    "source_url": "https://www.scimagojr.com/",
+    "mirror_type": "research data mirror",
+    "description": "Historical SCImago Journal Rank data mirrored for reproducible literature and journal analysis."
+  },
+
+  "sjr": {
+    "first_year": 2010,
+    "last_year": 2025,
+    "latest_snapshot_year": 2025,
+    "url_pattern": "scimagojr-{year}.csv",
+    "delimiter": ";",
+    "encoding": "utf-8",
+    "primary_source_key": "Sourceid",
+    "preferred_matching_keys": [
+      "Issn",
+      "Title"
+    ]
+  },
+
+  "journal_value": {
+    "year": 2025,
+    "file": "scimago-journal-value-2025.csv",
+    "description": "SCImago Journal Value and estimated APC snapshot.",
+    "apc_is_estimate": true
+  },
+
+  "checksums": {
+    "algorithm": "sha256",
+    "file": "SHA256SUMS.txt",
+    "verification_required": true
+  },
+
+  "files": {
+    "expected_sjr_file_count": 16,
+    "expected_journal_value_file_count": 1,
+    "expected_total_data_files": 17
+  },
+
+  "policy": {
+    "require_present_in_latest_scimago_for_main_corpus": true,
+    "use_exact_publication_year_when_available": true,
+    "historical_missing_year_policy": "leave_unavailable",
+    "future_publication_year_policy": "use_latest_available_only_as_current_metadata",
+    "preserve_raw_discovery_corpus": true,
+    "do_not_infer_scopus_active_status_from_scimago_presence": true,
+    "do_not_infer_predatory_status_from_scimago_absence": true
+  },
+
+  "ranking_policy": {
+    "publication_year_metric": "Use SJR and quartile from the SCImago snapshot matching the publication year.",
+    "latest_metric": "Use the latest SCImago snapshot only as current/latest source metadata.",
+    "best_quartile": "Preserve SJR Best Quartile.",
+    "category_quartiles": "Preserve category-specific quartiles by year.",
+    "future_years": "Do not label the latest available quartile as the publication-year quartile for a future publication year."
+  },
+
+  "source_status": {
+    "ACTIVE_LATEST": "Source is present in the latest SCImago snapshot.",
+    "HISTORICAL_ONLY": "Source appears in an earlier SCImago snapshot but not in the latest snapshot.",
+    "UNMATCHED": "Source could not be matched to SCImago.",
+    "AMBIGUOUS": "More than one plausible SCImago source match exists."
+  },
+
+  "matching_policy": {
+    "priority": [
+      "ISSN_EXACT",
+      "ISSNL_EXACT",
+      "TITLE_EXACT",
+      "TITLE_NORMALIZED"
+    ],
+    "manual_review_for_ambiguous_matches": true,
+    "never_silently_accept_ambiguous_match": true
+  },
+
+  "data_notes": {
+    "scimago_and_scopus": "SCImago uses Scopus data, but presence in a SCImago snapshot must not be treated as proof of current Scopus indexing status.",
+    "conference_note": "Annual SCImago conference/proceedings coverage varies substantially. Absence from a yearly export must not be interpreted as discontinuation from Scopus.",
+    "quartile_note": "Best Quartile and category-specific quartiles are distinct and should both be retained.",
+    "apc_note": "Estimated APC values are snapshot estimates and must not be interpreted as historical APC values.",
+    "predatory_note": "SCImago inclusion or exclusion alone must not be used to classify a venue as predatory."
+  }
+}
