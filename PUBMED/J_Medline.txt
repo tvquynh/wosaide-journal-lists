@@ -297831,14 +297831,6 @@ ISSN (Online): 2960-0421
 IsoAbbr: Carbon Futur
 NlmId: 9919013196106676
 --------------------------------------------------------
-JrId: 54160
-JournalTitle: Perinatal, preterm and paediatric image analysis : 9th international workshop, PIPPI 2024, held in conjunction with MICCAI 2024, Marrakesh, Morocco, October 6, 2024, proceedings
-MedAbbr: Perinat Preterm Paediatr Image Anal (2024)
-ISSN (Print): 
-ISSN (Online): 
-IsoAbbr: Perinat Preterm Paediatr Image Anal (2024)
-NlmId: 9919013196006676
---------------------------------------------------------
 JrId: 54161
 JournalTitle: NAM journal
 MedAbbr: NAM J
@@ -300046,14 +300038,6 @@ ISSN (Print):
 ISSN (Online): 2692-5877
 IsoAbbr: Int J Clin Stud Med Case Rep
 NlmId: 9919165913406676
---------------------------------------------------------
-JrId: 54481
-JournalTitle: Perinatal, preterm and paediatric image analysis (2025)
-MedAbbr: Perinat Preterm Paediatr Image Anal (2025)
-ISSN (Print): 
-ISSN (Online): 
-IsoAbbr: Perinat Preterm Paediatr Image Anal (2025)
-NlmId: 9919165914206676
 --------------------------------------------------------
 JrId: 54482
 JournalTitle: Frontiers in high performance computing
@@ -304527,6 +304511,14 @@ ISSN (Online): 2754-1231
 IsoAbbr: Trans Urban Data Sci Technol
 NlmId: 9919270152206676
 --------------------------------------------------------
+JrId: 55176
+JournalTitle: In silico research in biomedicine
+MedAbbr: In Silico Res Biomed
+ISSN (Print): 
+ISSN (Online): 3050-7871
+IsoAbbr: In Silico Res Biomed
+NlmId: 9919270543406676
+--------------------------------------------------------
 JrId: 55177
 JournalTitle: NPJ autoimmunity
 MedAbbr: NPJ Autoimmun
@@ -304630,6 +304622,14 @@ ISSN (Print):
 ISSN (Online): 3049-4761
 IsoAbbr: Mach Learn Eng
 NlmId: 9919272346006676
+--------------------------------------------------------
+JrId: 55196
+JournalTitle: Voluntary sector review
+MedAbbr: Volunt Sect Rev
+ISSN (Print): 2040-8056
+ISSN (Online): 2040-8064
+IsoAbbr: Volunt Sect Rev
+NlmId: 9919273453106676
 --------------------------------------------------------
 JrId: 55197
 JournalTitle: Tizard learning disability review
@@ -304758,3 +304758,19 @@ ISSN (Print): 2509-8810
 ISSN (Online): 2509-8829
 IsoAbbr: J Geovisualization Spat Anal
 NlmId: 9919275853106676
+--------------------------------------------------------
+JrId: 55221
+JournalTitle: Appetite. Disordered eating
+MedAbbr: Appet Disord Eat
+ISSN (Print): 
+ISSN (Online): 3117-3950
+IsoAbbr: Appet Disord Eat
+NlmId: 9919275853206676
+--------------------------------------------------------
+JrId: 55234
+JournalTitle: Perinatal, Preterm and Paediatric Image Analysis. PIPPI (Workshop)
+MedAbbr: Perinat Preterm Paediatr Image Anal
+ISSN (Print): 
+ISSN (Online): 
+IsoAbbr: Perinat Preterm Paediatr Image Anal
+NlmId: 9919276449106676
