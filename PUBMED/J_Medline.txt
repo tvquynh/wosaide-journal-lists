@@ -162843,7 +162843,7 @@ JrId: 33902
 JournalTitle: Recent patents on anti-infective drug discovery
 MedAbbr: Recent Pat Antiinfect Drug Discov
 ISSN (Print): 1574-891X
-ISSN (Online): 
+ISSN (Online): 2212-4071
 IsoAbbr: Recent Pat Antiinfect Drug Discov
 NlmId: 101266084
 --------------------------------------------------------
@@ -275122,7 +275122,7 @@ NlmId: 9918227366506676
 JrId: 50755
 JournalTitle: Current reviews in clinical and experimental pharmacology
 MedAbbr: Curr Rev Clin Exp Pharmacol
-ISSN (Print): 
+ISSN (Print): 2772-4328
 ISSN (Online): 2772-4336
 IsoAbbr: Curr Rev Clin Exp Pharmacol
 NlmId: 9918227368306676
@@ -304766,6 +304766,14 @@ ISSN (Print):
 ISSN (Online): 3117-3950
 IsoAbbr: Appet Disord Eat
 NlmId: 9919275853206676
+--------------------------------------------------------
+JrId: 55229
+JournalTitle: Korean journal of adult nursing
+MedAbbr: Korean J Adult Nurs
+ISSN (Print): 
+ISSN (Online): 
+IsoAbbr: Korean J Adult Nurs
+NlmId: 101721302
 --------------------------------------------------------
 JrId: 55234
 JournalTitle: Perinatal, Preterm and Paediatric Image Analysis. PIPPI (Workshop)
