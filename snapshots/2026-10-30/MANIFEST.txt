@@ -1,0 +1,6 @@
+source_repository=https://github.com/wosaide/wosaide-journal-lists
+mirror_repository=https://github.com/tvquynh/wosaide-journal-lists
+mirror_branch=mirror
+mirror_commit=f4c0ca0ee875952a718d8a3683c023b991369a94
+snapshot_date_utc=2026-10-30
+created_by=github-actions
