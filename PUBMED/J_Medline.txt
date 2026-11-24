@@ -304354,7 +304354,7 @@ NlmId: 9919269342706676
 JrId: 55148
 JournalTitle: Journal of dental hygiene science
 MedAbbr: J Dent Hyg Sci
-ISSN (Print): 1598-4478
+ISSN (Print): 
 ISSN (Online): 2233-7679
 IsoAbbr: J Dent Hyg Sci
 NlmId: 101707917
