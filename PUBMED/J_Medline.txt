@@ -293851,7 +293851,7 @@ JrId: 53586
 JournalTitle: Cancer heterogeneity and plasticity
 MedAbbr: Cancer Heterog Plast
 ISSN (Print): 
-ISSN (Online): 
+ISSN (Online): 2818-7792
 IsoAbbr: Cancer Heterog Plast
 NlmId: 9918863321306676
 --------------------------------------------------------
